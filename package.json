@@ -4,7 +4,7 @@
   "description": "compress json to js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --ui exports --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jetiny/jjc/issues"
   },
-  "homepage": "https://github.com/jetiny/jjc#readme"
+  "homepage": "https://github.com/jetiny/jjc#readme",
+  "devDependencies": {
+    "mocha": "^5.0.1"
+  }
 }
