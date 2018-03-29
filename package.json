@@ -1,21 +1,22 @@
 {
-  "name": "jjc",
+  "name": "json2j",
   "version": "1.0.0",
   "description": "compress json to js",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c rollup.config.js",
     "test": "mocha --ui exports --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jetiny/jjc.git"
+    "url": "git+https://github.com/jetiny/json2j.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jetiny/jjc/issues"
+    "url": "https://github.com/jetiny/json2j/issues"
   },
-  "homepage": "https://github.com/jetiny/jjc#readme",
+  "homepage": "https://github.com/jetiny/json2j#readme",
   "devDependencies": {
     "mocha": "^5.0.1"
   }
