@@ -10,5 +10,4 @@ deploy:
 before_script:
 - npm install stdx
 script:
-- npm run lint
 - npm run build
