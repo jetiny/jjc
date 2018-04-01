@@ -2,10 +2,10 @@
   "name": "json2j",
   "version": "1.0.0",
   "description": "compress json to js",
-  "main": "index.js",
+  "main": "dist/json2j.cjs.js",
   "scripts": {
     "build": "rollup -c rollup.config.js",
-    "test": "mocha --ui exports --reporter spec"
+    "test": "mocha --ui exports --reporter spec test/pack.js"
   },
   "repository": {
     "type": "git",

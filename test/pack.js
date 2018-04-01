@@ -12,7 +12,7 @@ exports.pack.simple = function () {
 
 exports.pack.bigArray = function () {
   var json = []
-  for (var i= 0; i < 10000; ++i) {
+  for (var i= 0; i < 10; ++i) {
     json.push({
       i,
       name: "something",
